@@ -1,9 +1,10 @@
 {
-    "name": "roman444uk/yii2-magnific-popup",
+    "name": "asinfotrack/yii2-magnific-popup",
     "description": "JQuery magnific popup widget",
     "version": "dev-master",
     "keywords": [
         "roman444uk",
+        "asinfotrack",
         "yii",
         "yii2",
         "yii 2",
@@ -11,12 +12,17 @@
         "magnific popup"
     ],
     "type": "yii2-extension",
-    "homepage": "https://github.com/roman444uk/yii2-magnific-popup",
+    "homepage": "https://github.com/asinfotrack/yii2-magnific-popup",
     "authors": [
         {
             "name": "Roman Gnidenko",
             "email": "roman444uk@mail.ru",
             "role": "Developer"
+        },
+        {
+            "name": "Pascal Lüscher",
+            "email": "pascal.luescher@asinfotrack.ch",
+            "role": "publisher",
         }
     ],
     "require": {
@@ -25,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "roman444uk\\magnificPopup\\": ""
+            "asinfotrack\\magnificPopup\\": ""
         }
     }
 }
